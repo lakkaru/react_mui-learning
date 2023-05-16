@@ -12,19 +12,18 @@ import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNone
 import OfflineBoltOutlinedIcon from "@mui/icons-material/OfflineBoltOutlined";
 import TableRowsOutlinedIcon from "@mui/icons-material/TableRowsOutlined";
 import WidgetsOutlinedIcon from "@mui/icons-material/WidgetsOutlined";
-import Component from "../../../components/leftNav/Component";
+import LeftNavComponent from "../../../components/leftNav/LeftNavComponent";
 
-export default function Components({ components }) {
+export default function LeftNavComponents({ LeftNavComponents }) {
   return (
     <Grid item>
-      {/* component label */}
-    {/* component label */}
+    {/* LeftNavComponent label */}
     <Grid container>
-      <Typography>Components</Typography>
+      <Typography>LeftNavComponents</Typography>
       </Grid>
       {/* base */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={CameraRollOutlinedIcon}
           name="Base"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -32,7 +31,7 @@ export default function Components({ components }) {
       </Grid>
       {/* buttons */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={NearMeOutlinedIcon}
           name="Buttons"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -40,7 +39,7 @@ export default function Components({ components }) {
       </Grid>
       {/* charts */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={ScheduleOutlinedIcon}
           name="Charts"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -48,7 +47,7 @@ export default function Components({ components }) {
       </Grid>
       {/* editors */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={CodeOffOutlinedIcon}
           name="Editors"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -56,7 +55,7 @@ export default function Components({ components }) {
       </Grid>
       {/* forms */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={ListAltOutlinedIcon}
           name="Forms"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -64,7 +63,7 @@ export default function Components({ components }) {
       </Grid>
       {/* google maps */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={AssistantDirectionOutlinedIcon}
           name="Google Maps"
           ButtonDetails={{ face: "Pro", vari: "error" }}
@@ -72,7 +71,7 @@ export default function Components({ components }) {
       </Grid>
       {/* icons */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={StarBorderPurple500OutlinedIcon}
           name="Icons"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -80,7 +79,7 @@ export default function Components({ components }) {
       </Grid>
       {/* notifications */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={NotificationsNoneOutlinedIcon}
           name="Notifications"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -88,7 +87,7 @@ export default function Components({ components }) {
       </Grid>
       {/* plugings */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={OfflineBoltOutlinedIcon}
           name="Plugins"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -96,7 +95,7 @@ export default function Components({ components }) {
       </Grid>
       {/* tables */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={TableRowsOutlinedIcon}
           name="Tables"
           EndIcon={ArrowBackIosNewOutlinedIcon}
@@ -104,7 +103,7 @@ export default function Components({ components }) {
       </Grid>
       {/* widgets */}
       <Grid item>
-        <Component
+        <LeftNavComponent
           StartIcon={WidgetsOutlinedIcon}
           name="Widgets"
           ButtonDetails={{ face: "New", vari: "primary" }}

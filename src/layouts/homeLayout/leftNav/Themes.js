@@ -2,9 +2,9 @@ import { Grid, Typography } from "@mui/material";
 import React from "react";
 import WaterDropOutlinedIcon from "@mui/icons-material/WaterDropOutlined";
 import ModeOutlinedIcon from "@mui/icons-material/ModeOutlined";
-import Component from "../../../components/leftNav/Component";
+import LeftNavComponent from "../../../components/leftNav/LeftNavComponent";
 
-export default function THEME() {
+export default function Themes() {
   return (
     <Grid
       container
@@ -18,11 +18,11 @@ export default function THEME() {
 
       {/* colors */}
       <Grid item>
-        <Component StartIcon={WaterDropOutlinedIcon} name="Colors" />
+        <LeftNavComponent StartIcon={WaterDropOutlinedIcon} name="Colors" />
       </Grid>
       {/* Typography */}
       <Grid item>
-        <Component StartIcon={ModeOutlinedIcon} name="Typography" />
+        <LeftNavComponent StartIcon={ModeOutlinedIcon} name="Typography" />
       </Grid>
     </Grid>
   );

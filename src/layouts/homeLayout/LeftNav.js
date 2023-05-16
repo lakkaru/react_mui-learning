@@ -2,8 +2,9 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Logo from "../../components/leftNav/Logo";
 import Dashboard from "../../components/leftNav/Dashboard";
-import Theme from "./leftNav/Theme";
 import Components from "./leftNav/Components";
+import Themes from "./leftNav/Themes";
+import Extras from "./leftNav/Extras";
 
 export default function LeftNav() {
   
@@ -28,14 +29,16 @@ export default function LeftNav() {
         <Grid item px={1}>
           {/* theame */}
           <Grid item>
-            <Theme />
+            <Themes/>
           </Grid>
           {/* components */}
           <Grid item>
             <Components />
           </Grid>
           {/* extras */}
-          <Grid item></Grid>
+          <Grid item>
+            <Extras/>
+          </Grid>
         </Grid>
       </Grid>
     </Grid>
