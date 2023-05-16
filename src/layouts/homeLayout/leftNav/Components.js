@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import NearMeOutlinedIcon from "@mui/icons-material/NearMeOutlined";
 import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 import CameraRollOutlinedIcon from "@mui/icons-material/CameraRollOutlined";
@@ -18,7 +18,10 @@ export default function Components({ components }) {
   return (
     <Grid item>
       {/* component label */}
-
+    {/* component label */}
+    <Grid container>
+      <Typography>Components</Typography>
+      </Grid>
       {/* base */}
       <Grid item>
         <Component

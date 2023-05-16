@@ -1,7 +1,7 @@
 import { Grid, Typography, Button } from "@mui/material";
 
 export default function Component({ StartIcon, name, EndIcon, ButtonDetails }) {
-  console.log(ButtonDetails?.face);
+//   console.log(ButtonDetails?.face);
 
   return (
     <Grid container justifyContent={"space-between"} sx={{ py: 1 }}>
