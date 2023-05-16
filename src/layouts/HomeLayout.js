@@ -1,36 +1,14 @@
 import { Grid, Typography } from '@mui/material'
 import React from 'react'
+import LeftNav from './homeLayout/LeftNav'
 
 export default function HomeLayout () {
   return (
-    <Grid container p={3}>
-       {/* left menu  */}
-        <Grid item xs={2} >
-            <Grid container flexDirection={'column'}>
-              {/* logo */}
-              <Grid item>
-              <Typography>logo</Typography>
-              </Grid>
-              {/* dashboard */}
-              <Grid item>
-              <Typography>dashbord</Typography>
-              </Grid>
-              {/* theame */}
-              <Grid item>
-              <Typography>Teame</Typography>
-              </Grid>
-              {/* components */}
-              <Grid item>
-              <Typography>components</Typography>
-              </Grid>
-              {/* extras */}
-              <Grid item>
-
-              </Grid>
-            </Grid>
-        </Grid>
+    <Grid container p={1} sx={{bgcolor:'#08bcff'}}>
+       {/* left nav  */}
+        <LeftNav/>
         {/* Right content */}
-        <Grid item xs={10}>
+        <Grid item sm={8} md={9} lg={10}>
             <Grid container>
               {/* main menu */}
               <Grid item xs={12}>
