@@ -3,7 +3,7 @@ import { Grid } from "@mui/material";
 import Logo from "../../components/leftNav/Logo";
 import Dashboard from "../../components/leftNav/Dashboard";
 import Theme from "../../components/leftNav/Theme";
-import Components from "../../components/leftNav/Components";
+import Components from "./leftNav/Components";
 
 export default function LeftNav() {
   
