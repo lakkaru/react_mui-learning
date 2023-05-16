@@ -1,6 +1,6 @@
 import { Grid, Typography, Button } from "@mui/material";
 
-export default function Component({ StartIcon, name, EndIcon, ButtonDetails }) {
+export default function LeftNavComponent({ StartIcon, name, EndIcon, ButtonDetails }) {
 //   console.log(ButtonDetails?.face);
 
   return (
