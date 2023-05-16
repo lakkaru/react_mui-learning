@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Logo from "../../components/leftNav/Logo";
 import Dashboard from "../../components/leftNav/Dashboard";
-import Theme from "../../components/leftNav/Theme";
+import Theme from "./leftNav/Theme";
 import Components from "./leftNav/Components";
 
 export default function LeftNav() {
